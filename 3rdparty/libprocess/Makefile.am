@@ -15,7 +15,7 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
-AUTOMAKE_OPTIONS = foreign
+AUTOMAKE_OPTIONS = subdir-objects
 LIBPROCESS_BUILD_DIR=@abs_builddir@
 
 # NOTE: The libprocess headers were moved to the Makefile in "include"
