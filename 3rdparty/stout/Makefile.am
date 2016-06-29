@@ -12,7 +12,7 @@
 
 # Makefile for stout.
 
-AUTOMAKE_OPTIONS = foreign
+AUTOMAKE_OPTIONS = subdir-objects
 
 # NOTE: The stout headers were moved to the Makefile in "include"
 # subdirectory to make it easy to preserve the directory structure of
